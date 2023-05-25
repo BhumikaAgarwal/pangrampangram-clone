@@ -1,0 +1,57 @@
+.about-us{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30vh;
+}
+
+.about-us-heading {
+    font-size: 3rem;
+}
+
+.about-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-top: 9px;
+}
+
+.about-more-box1{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.about-font-box1{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.about-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+    margin-left: 45vw;
+}
+
+.about-font-paragh {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7vh;
+    margin-left: 71vw;
+    margin-top: 20vh;
+    margin-right: 3.5vw;
+    font-size: 18px;
+
+}
+
+.about-font {
+    display: flex;
+    justify-content: space-between;
+}

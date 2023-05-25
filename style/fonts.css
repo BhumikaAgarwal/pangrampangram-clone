@@ -1,0 +1,77 @@
+.font-page {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.font-heading {
+    margin-bottom: 15px;
+}
+
+.font-family {
+    font-size: 10rem;
+    margin-bottom: 20vh;
+    margin-left: 10px;
+}
+
+.font-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.font-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 8px;
+    width: 22vw;
+}
+
+.font-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.font-flex1 , .font-flex2 , .font-flex3 , .font-flex4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.font-circle {
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.all-font {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-font span {
+    font-size: 25px;
+}
+
+.all-font-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+
+}
+
+.font-whole-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 35vh;
+}
