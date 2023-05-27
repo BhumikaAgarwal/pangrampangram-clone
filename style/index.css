@@ -4,3 +4,31 @@
     box-sizing: border-box;
     overflow-x: hidden;
   }
+
+  /* .wrapper{
+    position: relative;
+    top: 100vh;
+  } */
+
+  .containers1{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    border:2px solid grey;
+  }
+
+  #para2{
+    display: none;
+  }
+
+  .darkmode-ele{
+    background-color: black;
+    color: white;
+  }
+
+  .darkbody{
+    background-color: white;
+    color: black;
+  }
+

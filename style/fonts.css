@@ -13,14 +13,34 @@
     margin-left: 10px;
 }
 
-.font-info {
+.font-hidden-ele1{
+    font-size: 2rem;
+    margin-bottom: 18vh;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.new-font{
+    background-color: rgb(221, 218, 218);
+    position: absolute;
+    right: -30px;
+    top: 30px;
+    transform: rotate(45deg);
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.font-info , .font-hidden-ele2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 20px;
 }
 
-.font-box {
+.font-wrapper {
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(173, 173, 173);
@@ -28,10 +48,16 @@
     width: 22vw;
 }
 
+.font-box{
+    position: relative;
+    z-index: 10;
+}
+
 .font-flex {
     display: flex;
     justify-content: space-between;
     margin-top: 5vh;
+    overflow-y: hidden;
 }
 
 .font-flex1 , .font-flex2 , .font-flex3 , .font-flex4 {
@@ -48,6 +74,26 @@
     align-items: center;
     justify-content: center;
     height: 40vh;
+    background-color: black;
+    color: white;
+}
+
+.font-circle-desc{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-circle:hover .font-circle-desc{
+    color: rgb(231, 229, 229);
+    transition: all 0.2s ease-in-out;
+}
+
+.font-circle:hover .font-circle-heading{
+    color: rgb(231, 229, 229);
+    transition: all 0.2s ease-in-out;
 }
 
 .all-font {
@@ -72,6 +118,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20vh;
-    margin-bottom: 35vh;
+    /* margin-top: 20vh; */
+    margin-bottom: 25vh;
 }
+
+.font-flex{
+    overflow-y: hidden;
+}
+
+.font-hidden{
+display: none;
+border: 1px solid rgb(173, 173, 173);
+border-radius: 8px;
+position: relative;
+width: 22vw;
+}
+
+
+
+
+
+
+
+
+
+
+

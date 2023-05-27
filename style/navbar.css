@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    position: sticky; 
+    top:0; 
+    z-index: 10;
+    align-self: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
+
+.logo i {
+    font-size: 10px;
+}
+
+.navbar div {
+    font-size: 17px;
+}
+
+.navbar-hidden {
+    margin-left: 22vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.darkmode {
+    display: none;
+}
+
+.navbar-hidden:hover {
+    color: rgb(187, 184, 184);
+}
+
+.navbar-hidden span {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.navbar-font {
+    margin-left: 28vw;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-cart {
+    margin-left: 4vw;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 1vh;
+}
+
+.hamline {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin-left: 4vw;
+}

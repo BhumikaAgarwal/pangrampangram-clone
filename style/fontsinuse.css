@@ -1,14 +1,15 @@
 .font-use-page{
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: 20px;
 }
 
 .font-use-h1-heading{
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .font-use-h1 i{
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .font-use-h1{
@@ -97,11 +98,55 @@ opacity: 0.4;
 
 .font-use-bottom-flex{
     display: flex;
+    margin-top: 8vh;
+    position: relative;
+    left: 2vw;
     justify-content: space-between;
-    align-items: center;
+    gap: 25px;
+    border-radius: 20px;
+    margin-bottom: 20vh;
+
+}
+
+.font-use-bottom-img img{
+    width: 30vw;
+    height: 35vh;
+    border-radius: 20px;
 }
 
 .font-use-bottom-img{
-    width: 30vw;
-    height: 35vh;
+    object-fit: cover;
 }
+
+.conatiner1-img , .container2-img , .container3-img , .container4-img , .container5-img , .font-use-bottom-img{
+    overflow: hidden;
+    position: relative;
+    transform: translateY(0);
+    transform: translateZ(0);
+}
+
+.moving-img1 , .moving-img2 , .moving-img3 , .moving-img4 , .moving-img5 , .moving-img6, .moving-img7 , .moving-img8 {
+    position: sticky; /* Position the image absolutely */
+    /* Initial left position */
+    transition: transform 0.2s; /* Add a smooth transition effect */
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    
+  }
+
+  .font-use-bottom-footer span{
+    color: rgb(202, 200, 200);
+  }
+
+  .font-use-bottom-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-below-heading{
+    margin-top: 15px;
+  }
+
+  .footer-below-heading i {
+    font-size: 12px;
+  }

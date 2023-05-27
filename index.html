@@ -13,10 +13,29 @@
     <link href="style/fonts.css" rel="stylesheet">
     <link href="style/fontsinuse.css" rel="stylesheet">
     <link href="style/carousel.css" rel="stylesheet">
-
+    <link href="style/navbar.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="navbar">
+        <div class="logo">PangramPangram<i class="fa-solid fa-circle"></i>Foundry
+        </div>
+        <div class="navbar-hidden">
+            <span onclick="darkmode()">⬤</span>
+            <div class="mode"> Light Mode</div>
+            <!-- <div class="darkmode"> Dark Mode</div> -->
+
+        </div>
+        <div class="navbar-font">
+            <span class="navbar-font-ele1">All Fonts</span>
+            <span class="navbar-font-ele1">Font Starter Pack</span>
+        </div>
+        <div class="navbar-cart">Cart<sup>0</sup></div>
+        <div class="hamburger">
+            <div class="hamline"></div>
+            <div class="hamline"></div>
+        </div>
+    </div>
 
     <div class="carousel">
         <div class="carousel__item" id="c1">
@@ -45,7 +64,8 @@
                 <div class="slide2-box-text1">Fragment v2.0</div>
                 <div class="slide2-box-text2">
                     <p>Our most versatile font just got more powerful!</p>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    →
+
                 </div>
             </div>
         </div>
@@ -90,415 +110,640 @@
         </div>
     </div>
 
-    <div class="about-us">
-        <div class="about-us-heading">&nbsp &nbsp &nbsp &nbspWE PROVIDE (TREND-CONSCIOUS) FREE TO TRY FONTS FOR
-            DESIGNERS → EACH TYPEFACE,
-            EVERY GLYPH IS CRAFTED WITH GREAT CARE AND ATTENTION TO DETAILS FOR YOUR EVERYDAY DESIGNS ● BY THE
-            WAY, ALL
-            OUR FONTS ARE STARTING AT $30.</div>
-        <div class="about-font-paragh">New to our fonts? Be sure to check out our Font Starter Pack. You get 27
-            typefaces with a total of 144 weights ● That’s 60 extra weights that are not available to try with
-            the regular trial downloads including versatile poster mockups.</div>
-        <div class="about-bottom">
-            <div class="about-more-box1">
-                <div class="about-more">
-                    <div class="about-more-h1">More About Us</div>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-                <div class="line"></div>
-            </div>
-            <div class="about-font-box1">
-                <div class="about-font">
-                    <div class="about-font-h1">Font Starter Pack</div>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-                <div class="line"></div>
-            </div>
-        </div>
-    </div>
+    <div class="wrapper">
+        <div class="darkmode-ele">
 
-    <div class="font-page">
-        <div class="font-heading">Showing 11 of 41 font families</div>
-        <hr>
+            <div class="about-us">
+                <div class="font-use-h1 aboutus">
+                    <i class="fa-solid fa-circle"></i>
+                    <div class="font-use-h1-heading ">About us</div>
+                </div>
+                <div class="about-us-heading">&nbsp &nbsp &nbsp &nbspWE PROVIDE (TREND-CONSCIOUS) FREE TO TRY FONTS FOR
+                    DESIGNERS → EACH TYPEFACE,
+                    EVERY GLYPH IS CRAFTED WITH GREAT CARE AND ATTENTION TO DETAILS FOR YOUR EVERYDAY DESIGNS ● BY THE
+                    WAY, ALL
+                    OUR FONTS ARE STARTING AT $30.</div>
+                <div class="about-font-paragh">New to our fonts? Be sure to check out our Font Starter Pack. You get 27
+                    typefaces with a total of 144 weights ● That’s 60 extra weights that are not available to try with
+                    the regular trial downloads including versatile poster mockups.</div>
+                <div class="about-bottom">
+                    <div class="about-more-box1">
+                        <div class="about-more">
+                            <div class="about-more-h1">More About Us</div>
+                            →
 
-        <div class="font-flex">
-            <div class="font-flex1">
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Editorial Old<br>
-                            16 styles + Variable cut<br>Including Italics
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="line"></div>
                     </div>
-                </div>
+                    <div class="about-font-box1">
+                        <div class="about-font">
+                            <div class="about-font-h1">Font Starter Pack</div>
+                            →
 
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Fragment Collection<br>
-                            64 styles + Variable Cut<br>
-                            From Sans to Serif
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Right Didone Collection<br>
-                            49 styles + Variable Cut
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="line"></div>
                     </div>
                 </div>
             </div>
 
-            <div class="font-flex2">
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Right Serif Collection<br>
-                            49 styles + Variable Cut
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
+            <div class="font-page">
+                <div class="font-heading">Showing 11 of 41 font families</div>
+                <hr>
 
-                <div class="font-circle">
-                    <div class="font-circle-heading">New to our fonts?</div>
-                    <div class="font-circle-desc">GET THE FONT STARTER PACK</div>
-                </div>
+                <div class="font-flex">
+                    <div class="font-flex1">
 
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Right Slab Collection<br>
-                            49 styles + Variable Cut
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="new-font">💥New Font💥</div>
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Editorial Old<br>
+                                        16 styles + Variable cut<br>Including Italics
+                                    </span>
+                                    →
 
-            <div class="font-flex3">
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Acma<br>
-                            10 styles + Variable cut<br>
-                            Irreverently Elegant Type
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Writer<br>
-                            30 styles + Variable cut<br>Including Italics &amp; Cyrillic Support
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Telegraf<br>
-                            24 styles + Variable cuts<br>
-                            Including Slant &amp; Oblique
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="font-flex4">
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Neue Machina<br>
-                            36 styles + Variable cut<br>
-                            Including Italics &amp; Cyrillic Support
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Mori<br>
-                            16 styles + Variable cut<br>Including Italics
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="font-box">
-                    <div class="font-family">Aa</div>
-                    <div class="font-info">
-                        <span>
-                            Right Sans Collection<br>
-                            98 styles + Variable Cut<br>
-                            Including Italics and Cyrillic Support
-                        </span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="font-whole-wrapper">
-            <div class="all-font-wrapper">
-                <div class="all-font">
-                    <span>See all our Fonts</span>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-                <div class="line"></div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="font-use-page">
-        <div class="font-use-h1">
-            <i class="fa-solid fa-circle"></i>
-            <div class="font-use-h1-heading">Font in use</div>
-        </div>
-        <div class="font-use-h2">&nbsp &nbsp &nbsp &nbsp HERE ARE SOME BEAUTIFUL PROJECTS USING OUR FONTS ● YOU
-            CAN GO
-            CHECK OUT OUR FONT IN USE
-            SECTION AND DON'T FORGET TO SEND US YOUR PROJECTS USING OUR FONTS TO GET FEATURED.</div>
-        <div class="font-use-flex1">
-            <div class="font-use-container">
-                <div class="container1-img">
-                    <img src="https://cdn.shopify.com/s/files/1/2642/6578/articles/A_1920x.jpg?v=1684347328" alt="">
-                </div>
-                <div class="container-footer">
-                    <h1>Litera Tour Case</h1>
-                    <span>Event</span>
-                </div>
-            </div>
-            <div class="font-use-container">
-                <div class="container2-img">
-                    <img src="https://cdn.shopify.com/s/files/1/2642/6578/articles/COVER_aa25ccac-eb36-479b-8f37-b3325aa9cbf3_960x.png?v=1683571220"
-                        alt="">
-                </div>
-                <div class="container-footer">
-                    <h1>Trop Taste</h1>
-                    <span>Branding</span>
-                </div>
-            </div>
-        </div>
-        <div class="font-use-flex2">
-            <div class="font-use-container">
-                <div class="container3-img">
-                    <img src="https://cdn.shopify.com/s/files/1/2642/6578/articles/COVER_5f423d57-efe2-40a0-92b0-54eec34a9253_960x.jpg?v=1682966436"
-                        alt="">
-                </div>
-                <div class="container-footer">
-                    <h1>Thorlo</h1>
-                    <span>Branding</span>
-                </div>
-            </div>
-            <div class="font-use-container">
-                <div class="container4-img">
-                    <img src="https://cdn.shopify.com/s/files/1/2642/6578/articles/COVER_2165d3be-64ac-4e22-adc2-d3ffca7ba8e2_960x.png?v=1681326066"
-                        alt="">
-                </div>
-                <div class="container-footer">
-                    <h1>SAISONS ZERO</h1>
-                    <span>Event,Print</span>
-                </div>
-            </div>
-            <div class="font-use-container">
-                <div class="container5-img">
-                    <img src="https://cdn.shopify.com/s/files/1/2642/6578/articles/cover_951a03a9-8596-4a61-9f49-19aa3db954f6_960x.jpg?v=1678292830"
-                        alt="">
-                </div>
-                <div class="container-footer">
-                    <h1>Veuve Clicquot</h1>
-                    <span>Event</span>
-                </div>
-            </div>
-        </div>
-        <div class="font-use-whole-wrapper">
-            <div class="all-font-wrapper">
-                <div class="all-font">
-                    <span>See all our Fonts in use</span>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-                <div class="line"></div>
-            </div>
-        </div>
-        <hr>
-
-        <div class="font-use-bottom">
-            <div class="footer-below-heading">
-                <i class="fa-solid fa-circle"></i>
-                <div class="heading">The Pangram Paper</div>
-            </div>
-
-            <div class="font-use-bottom-flex">
-                <div class="educational-left">
-                    <div class="font-use-bottom-img">
-                        <img src="https://cdn.shopify.com/s/files/1/2642/6578/articles/art_buying_washington_post_final_960x.jpg?v=1684941792"
-                            alt="">
-                    </div>
-                    <div class="font-use-bottom-footer">
-                        <span>Educational</span>
-                        <h1>Portfolio advice for Illustrators</h1>
-                    </div>
-                </div>
-                <div class="spotlight">
-                    <div class="font-use-bottom-img">
-                        <img src="https://cdn.shopify.com/s/files/1/2642/6578/articles/OT-cover_960x.jpg?v=1684328493"
-                            alt="">
-                    </div>
-                    <div class="font-use-bottom-footer">
-                        <span>Spotlight</span>
-                        <h1>Say helloooooooo to OFF TYPE</h1>
-                    </div>
-                </div>
-                <div class="educational-right">
-                    <div class="font-use-bottom-img">
-                        <img src="https://cdn.shopify.com/s/files/1/2642/6578/articles/Advice-2_960x.jpg?v=1683722367"
-                            alt="">
-                    </div>
-                    <div class="font-use-bottom-footer">
-                        <span>Educational</span>
-                        <h1>Portfolio advice for Graphic Designers</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="footer">
-        <div class="footer-top">
-            <div class="footer-top-1">
-                <div class="footer-top-email">
-                    <h4 class="email-sentence"> Subscribe to our newsletter to stay in touch with the latest.
-                    </h4>
-                    <div class="email-input">
-                        <div class="email-input-flex">
-                            <input type="text" placeholder="Email address" class="email">
-                            <div class="email-arrow">
-                                <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 editorial">
+                                    Six javelins thrown by the quick savages whizzed forty paces beyond the mark.
+                                </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Editorial Old <br />
+                                        16 Styles + Variable Cut <br />
+                                        including Italics
+                                    </div>
+                                    <div class="font-hidden-ele3">→</div>
+                                </div>
                             </div>
                         </div>
-                        <div class="email-line"></div>
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="new-font">⚡️Update v2.0</div>
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Fragment Collection<br>
+                                        64 styles + Variable Cut<br>
+                                        From Sans to Serif
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 fragment">
+                                    The July sun caused a fragment of black pine wax to ooze on the velvet quilt. </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Fragment Collection <br />
+                                        64 Styles + Variable Cut <br />
+                                        From Sans to Serif
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="new-font">💥New Font💥</div>
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Right Didone Collection<br>
+                                        49 styles + Variable Cut
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 didone">
+                                    Just keep examining every low bid quoted for zinc etchings. </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Right Didone Collection <br />
+                                        49 Styles + Variable Cut <br />
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="font-flex2">
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="new-font">💥New Font💥</div>
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Right Serif Collection<br>
+                                        49 styles + Variable Cut
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 serif">
+                                    Just keep examining every low bid quoted for zinc etchings.
+                                </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Right Serif Collection <br />
+                                        49 Styles + Variable Cut <br />
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="font-circle">
+                            <div class="font-circle-heading">New to our fonts?</div>
+                            <div class="font-circle-desc">GET THE FONT<br>STARTER PACK</div>
+                        </div>
+
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Right Slab Collection<br>
+                                        49 styles + Variable Cut
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 slab">
+                                    The cajoling quirked sexy wizard mob persuade very influentially. </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Right Slab Collection <br />
+                                        49 Style + Variable Cut <br />
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="font-flex3">
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="new-font">💥New Font💥</div>
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Acma<br>
+                                        10 styles + Variable cut<br>
+                                        Irreverently Elegant Type
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 acma">
+                                    Jaded zombies acted quietly but kept driving their oxen forward </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Acma <br />
+                                        10 Styles + Variable Cut <br />
+                                        Irreverently Elegant Type
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="new-font">💥New Font💥</div>
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Writer<br>
+                                        30 styles + Variable cut<br>Including Italics &amp; Cyrillic Support
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 writer">
+                                    Twelve ziggurats quickly jumped a finch box </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Writer <br />
+                                        30 Styles + Variable Cut <br />
+                                        Including Italics & Cyrillic Support
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="new-font">⚡️Update v2.0</div>
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Telegraf<br>
+                                        24 styles + Variable cuts<br>
+                                        Including Slant &amp; Oblique
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 telegraf">
+                                    Just keep examining every low bid quoted for zinc etchings.
+                                </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Telegraf <br />
+                                        24 Styles + Variable Cut <br />
+                                        Including Slant & Oblique
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="font-flex4">
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="new-font">⚡️Update v2.0</div>
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Neue Machina<br>
+                                        36 styles + Variable cut<br>
+                                        Including Italics &amp; Cyrillic Support
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 neue-machina">
+                                    Back in June we delivered oxygen equipment of the same size. </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Neue Machina <br />
+                                        36 Styles + Variable Cut <br />
+                                        Including Italics & Cyrillic Support
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Mori<br>
+                                        16 styles + Variable cut<br>Including Italics
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 mori">
+                                    The explorer was frozen in his big kayak just after making queer discoveries. </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Mori <br />
+                                        16 Styles + Variable Cut <br />
+                                        Including Italics
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="font-wrapper" onmouseover="dim()" onmouseout="light()">
+                            <div class="font-box">
+                                <div class="font-family">Aa</div>
+                                <div class="font-info">
+                                    <span>
+                                        Right Sans Collection<br>
+                                        98 styles + Variable Cut<br>
+                                        Including Italics and Cyrillic Support
+                                    </span>
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="font-hidden">
+                                <img src="Assets/images/see.svg" alt="" />
+                                <div class="font-hidden-ele1 sans">
+                                    Just keep examining every low bid quoted for zinc etchings. </div>
+                                <div class="font-hidden-ele2">
+                                    <div class="font-hidden-ele2-part2">
+                                        Right Sans Collection <br />
+                                        98 Styles + Variable Cut <br />
+                                        Including Italics & Cyrillic Support
+                                    </div>
+                                    <div class="font-hidden-ele2-2">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="font-whole-wrapper">
+                    <div class="all-font-wrapper">
+                        <div class="all-font">
+                            <span>See all our Fonts</span>
+                            →
+
+                        </div>
+                        <div class="line"></div>
                     </div>
                 </div>
-                <div class="footer-top-menu">
-                    <div class="menu-title">Menu</div>
-                    <li>
-                        <ul>All Fonts</ul>
-                        <ul>Font Starter Pack</ul>
-                        <ul>The Pangram Paper</ul>
-                        <ul>Font in Use</ul>
-                        <ul>About</ul>
-                        <ul>Studio Shop</ul>
-                        <ul>Lab</ul>
-                        <ul>Cart</ul>
-                    </li>
-                </div>
-                <div class="footer-top-support">
-                    <div class="support-title">Support</div>
-                    <li>
-                        <ul>FAQs</ul>
-                        <ul>EULA</ul>
-                        <ul>Font Licenses</ul>
-                        <ul>Contact</ul>
-                        <ul>Account LogIn</ul>
-                    </li>
-                </div>
+                <hr>
+
             </div>
-            <div class="footer-top-2">
-                <div class="footer-top-2-icon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+
+            <div class="font-use-page">
+                <div class="font-use-h1">
+                    <i class="fa-solid fa-circle"></i>
+                    <div class="font-use-h1-heading">Font in use</div>
                 </div>
-                <div class="footer-top-2-image">
-                    Aa*1
+                <div class="font-use-h2">&nbsp &nbsp &nbsp &nbsp HERE ARE SOME BEAUTIFUL PROJECTS USING OUR FONTS ● YOU
+                    CAN GO
+                    CHECK OUT OUR FONT IN USE
+                    SECTION AND DON'T FORGET TO SEND US YOUR PROJECTS USING OUR FONTS TO GET FEATURED.</div>
+                <div class="font-use-flex1">
+                    <div class="font-use-container">
+                        <div class="container1-img">
+                            <img class="moving-img1"
+                                src="https://cdn.shopify.com/s/files/1/2642/6578/articles/A_1920x.jpg?v=1684347328"
+                                alt="">
+                        </div>
+                        <div class="container-footer">
+                            <h1>Litera Tour Case</h1>
+                            <span>Event</span>
+                        </div>
+                    </div>
+                    <div class="font-use-container">
+                        <div class="container2-img">
+                            <img class="moving-img2"
+                                src="https://cdn.shopify.com/s/files/1/2642/6578/articles/COVER_aa25ccac-eb36-479b-8f37-b3325aa9cbf3_960x.png?v=1683571220"
+                                alt="">
+                        </div>
+                        <div class="container-footer">
+                            <h1>Trop Taste</h1>
+                            <span>Branding</span>
+                        </div>
+                    </div>
                 </div>
+                <div class="font-use-flex2">
+                    <div class="font-use-container">
+                        <div class="container3-img">
+                            <img class="moving-img3"
+                                src="https://cdn.shopify.com/s/files/1/2642/6578/articles/COVER_5f423d57-efe2-40a0-92b0-54eec34a9253_960x.jpg?v=1682966436"
+                                alt="">
+                        </div>
+                        <div class="container-footer">
+                            <h1>Thorlo</h1>
+                            <span>Branding</span>
+                        </div>
+                    </div>
+                    <div class="font-use-container">
+                        <div class="container4-img">
+                            <img class="moving-img4"
+                                src="https://cdn.shopify.com/s/files/1/2642/6578/articles/COVER_2165d3be-64ac-4e22-adc2-d3ffca7ba8e2_960x.png?v=1681326066"
+                                alt="">
+                        </div>
+                        <div class="container-footer">
+                            <h1>SAISONS ZERO</h1>
+                            <span>Event,Print</span>
+                        </div>
+                    </div>
+                    <div class="font-use-container">
+                        <div class="container5-img">
+                            <img class="moving-img5"
+                                src="https://cdn.shopify.com/s/files/1/2642/6578/articles/cover_951a03a9-8596-4a61-9f49-19aa3db954f6_960x.jpg?v=1678292830"
+                                alt="">
+                        </div>
+                        <div class="container-footer">
+                            <h1>Veuve Clicquot</h1>
+                            <span>Event</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="font-use-whole-wrapper">
+                    <div class="all-font-wrapper">
+                        <div class="all-font">
+                            <span>See all our Fonts in use</span>
+                            →
+
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="font-use-bottom">
+                    <div class="footer-below-heading">
+                        <i class="fa-solid fa-circle"></i>
+                        <div class="heading">The Pangram Paper</div>
+                    </div>
+
+                    <div class="font-use-bottom-flex">
+                        <div class="educational-left">
+                            <div class="font-use-bottom-img">
+                                <img class="moving-img6"
+                                    src="https://cdn.shopify.com/s/files/1/2642/6578/articles/art_buying_washington_post_final_960x.jpg?v=1684941792"
+                                    alt="">
+                            </div>
+                            <div class="font-use-bottom-footer">
+                                <span>Educational</span>
+                                <h1>Portfolio advice for Illustrators</h1>
+                            </div>
+                        </div>
+                        <div class="spotlight">
+                            <div class="font-use-bottom-img">
+                                <img class="moving-img7"
+                                    src="https://cdn.shopify.com/s/files/1/2642/6578/articles/OT-cover_960x.jpg?v=1684328493"
+                                    alt="">
+                            </div>
+                            <div class="font-use-bottom-footer">
+                                <span>Spotlight</span>
+                                <h1>Say helloooooooo to OFF TYPE</h1>
+                            </div>
+                        </div>
+                        <div class="educational-right">
+                            <div class="font-use-bottom-img">
+                                <img class="moving-img8"
+                                    src="https://cdn.shopify.com/s/files/1/2642/6578/articles/Advice-2_960x.jpg?v=1683722367"
+                                    alt="">
+                            </div>
+                            <div class="font-use-bottom-footer">
+                                <span>Educational</span>
+                                <h1>Portfolio advice for Graphic Designers</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="font-use-whole-wrapper">
+                        <div class="all-font-wrapper">
+                            <div class="all-font">
+                                <span>See all Articles</span>
+                                →
+
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <hr>
-        <div class="footer-below">
-            <div class="footer-below-heading">
-                <i class="fa-solid fa-circle"></i>
-                <div class="heading">Available Fonts</div>
-            </div>
-            <div class="footer-below-list">
-                <ul class="font-list">
-                    <li>Editorial Old</li>
-                    <li>Right Didone</li>
-                    <li>Right Serif</li>
-                    <li>Right Slab</li>
-                    <li>Acma</li>
-                    <li>Writer</li>
-                    <li>Fragment</li>
-                    <li>Neue Machina</li>
-                    <li>Mori</li>
-                    <li>Right Sans</li>
-                    <li>Formula</li>
-                    <li>Radar</li>
-                    <li>Right Gothic</li>
-                    <li>Eiko</li>
-                    <li>Editorial New</li>
-                    <li>Fraktion</li>
-                    <li>Neue Montreal</li>
-                    <li>Bitmap Fonts</li>
-                    <li>Object Sans</li>
-                    <li>Supply</li>
-                    <li>Pangram Sans</li>
-                    <li>Telegraf</li>
-                    <li>Cirksa</li>
-                    <li>Radio Grotsek</li>
-                    <li>Pangram Sans Rounded</li>
-                    <li>Pier Sans</li>
-                    <li>Migra</li>
-                    <li>Gatwick</li>
-                    <li>Charlevoix Pro</li>
-                    <li>Neue World</li>
-                    <li>Monument Extended</li>
-                    <li>Grafier</li>
-                    <li>Stellar Sans</li>
-                    <li>Right Grotesk</li>
-                    <li>Agrandir</li>
-                    <li>Gosha Sans</li>
-                    <li>Fuji Sans</li>
-                    <li>Hatton</li>
-                    <li>Woodland</li>
-                    <li>Chronos Serif</li>
-                    <li>Casa Stencil</li>
-                </ul>
-            </div>
-            <div class="footer-last-part">
-                <div class="footer-below-icons">
-                    <i class="fa-brands fa-apple-pay"></i>
-                    <i class="fa-brands fa-cc-visa"></i>
+
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-1">
+                    <div class="footer-top-email">
+                        <h4 class="email-sentence"> Subscribe to our newsletter to stay in touch with the latest.
+                        </h4>
+                        <div class="email-input">
+                            <div class="email-input-flex">
+                                <input type="text" placeholder="Email address" class="email">
+                                <div class="email-arrow">
+                                    →
+
+                                </div>
+                            </div>
+                            <div class="email-line"></div>
+                        </div>
+                    </div>
+                    <div class="footer-top-menu">
+                        <div class="menu-title">Menu</div>
+                        <li>
+                            <ul>All Fonts</ul>
+                            <ul>Font Starter Pack</ul>
+                            <ul>The Pangram Paper</ul>
+                            <ul>Font in Use</ul>
+                            <ul>About</ul>
+                            <ul>Studio Shop</ul>
+                            <ul>Lab</ul>
+                            <ul>Cart</ul>
+                        </li>
+                    </div>
+                    <div class="footer-top-support">
+                        <div class="support-title">Support</div>
+                        <li>
+                            <ul>FAQs</ul>
+                            <ul>EULA</ul>
+                            <ul>Font Licenses</ul>
+                            <ul>Contact</ul>
+                            <ul>Account LogIn</ul>
+                        </li>
+                    </div>
                 </div>
-                <div class="footer-copyright">Copyright © Pangram Pangram® Foundry</div>
-                <div class="footer-website">Website by Locomotive</div>
+                <div class="footer-top-2">
+                    <div class="footer-top-2-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="footer-top-2-image">
+                        Aa*1
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-below">
+                <div class="footer-below-heading">
+                    <i class="fa-solid fa-circle"></i>
+                    <div class="heading">Available Fonts</div>
+                </div>
+                <div class="footer-below-list">
+                    <ul class="font-list">
+                        <li>Editorial Old</li>
+                        <li>Right Didone</li>
+                        <li>Right Serif</li>
+                        <li>Right Slab</li>
+                        <li>Acma</li>
+                        <li>Writer</li>
+                        <li>Fragment</li>
+                        <li>Neue Machina</li>
+                        <li>Mori</li>
+                        <li>Right Sans</li>
+                        <li>Formula</li>
+                        <li>Radar</li>
+                        <li>Right Gothic</li>
+                        <li>Eiko</li>
+                        <li>Editorial New</li>
+                        <li>Fraktion</li>
+                        <li>Neue Montreal</li>
+                        <li>Bitmap Fonts</li>
+                        <li>Object Sans</li>
+                        <li>Supply</li>
+                        <li>Pangram Sans</li>
+                        <li>Telegraf</li>
+                        <li>Cirksa</li>
+                        <li>Radio Grotsek</li>
+                        <li>Pangram Sans Rounded</li>
+                        <li>Pier Sans</li>
+                        <li>Migra</li>
+                        <li>Gatwick</li>
+                        <li>Charlevoix Pro</li>
+                        <li>Neue World</li>
+                        <li>Monument Extended</li>
+                        <li>Grafier</li>
+                        <li>Stellar Sans</li>
+                        <li>Right Grotesk</li>
+                        <li>Agrandir</li>
+                        <li>Gosha Sans</li>
+                        <li>Fuji Sans</li>
+                        <li>Hatton</li>
+                        <li>Woodland</li>
+                        <li>Chronos Serif</li>
+                        <li>Casa Stencil</li>
+                    </ul>
+                </div>
+                <div class="footer-last-part">
+                    <div class="footer-below-icons">
+                        <i class="fa-brands fa-apple-pay"></i>
+                        <i class="fa-brands fa-cc-visa"></i>
+                    </div>
+                    <div class="footer-copyright">Copyright © Pangram Pangram® Foundry</div>
+                    <div class="footer-website">Website by Locomotive</div>
+                </div>
             </div>
         </div>
     </div>
