@@ -42,7 +42,7 @@ opacity: 0.4;
 }
 
 .container-footer h1{
-    font-size: 20px
+    font-size: 1.5rem;
 }
 
 .container1-img img{
@@ -135,6 +135,10 @@ opacity: 0.4;
 
   .font-use-bottom-footer span{
     color: rgb(202, 200, 200);
+  }
+
+  .font-use-bottom-footer h1{
+    font-size: 2rem;
   }
 
   .font-use-bottom-footer{

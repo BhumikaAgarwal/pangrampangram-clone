@@ -3,27 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-  }
 
-  /* .wrapper{
-    position: relative;
-    top: 100vh;
-  } */
-
-  .containers1{
-    height: 400px;
-    width: 400px;
-    background-color: white;
-    color: black;
-    border:2px solid grey;
-  }
-
-  #para2{
-    display: none;
   }
 
   .darkmode-ele{
-    background-color: black;
+    background-color: #1c1c1c;
     color: white;
   }
 
@@ -32,3 +16,20 @@
     color: black;
   }
 
+.mode2{
+  display: none;
+}
+
+  .line {
+    height: 1px;
+    background-color: white;
+    width: 100%;
+    margin-top: 9px;
+  }
+
+.blackline{
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-top: 9px;
+}
